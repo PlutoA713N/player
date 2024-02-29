@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Arial', sans-serif;
+}
+
+.player-background {
+    width: 382px;
+    height: 591px;
+    background-color: #F7F8FC;
+}
+
+.player {
+    box-sizing: border-box;
+    width: 75%;
+    height: 85%;
+    background-color: #FFFFFF;
+    margin-top: 10%;
+    margin-left: 16%;
+    padding: 2% 5%;
+}
+
+.title {
+    color: #C1C4C4;
+    font-size: x-small;
+    font-weight: 400;
+    margin: 0 4.6rem;
+}
+
+.music-title {
+    font-size: small;
+    margin:0 1rem;
+    margin-top: -1.0rem;
+}
+
+.writer {
+    font-size: x-small;
+    margin: 0.3rem 5rem;
+}
+
+.cover-pic {
+    width: 100%;
+    height: 30%;
+    margin: 1rem 0;
+}
+
+.horizontal-line {
+    color: #E7E7E7;
+    border: 1px solid #E7E7E7;
+}
+
+.circle-play {
+    font-size: 2rem;
+    margin-top: -0.5rem;
+}
+
+.time {
+    color: #c0bfbc;
+    font-size: x-small;
+}
+
+.track {
+    margin-top: -0.5rem;
+}
+
+.NaN {
+    margin-left: 10.6rem;
+}
+
+.music-keys {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 2rem;
+}
+
+.songs-list {
+   font-size: small;
+   margin: 2rem 0;
+   width: 100%;
+}
+
+.title-time  {
+    display: flex;
+    justify-content: space-between;
+    margin-top: -0.8rem;
+    margin-bottom: 0.3rem;
+}
+
+.title-time p {
+    color:#757C7C ;
+}
+
+.title-time .selected-song {
+    margin-top: -0.2rem;
+    margin-left: -0.6em;
+    color: black;
+}
+
+.title-time .selected-song .cyan {
+    
+    color: cyan;
+}
